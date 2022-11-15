@@ -1,7 +1,7 @@
 Options -Multiviews
 
 RewriteEngine On
-RewriteRule catlinite/index.html$ /apache/wickiup/catlinite.html [R=301,L]
-RewriteRule catlinite/$ /apache/wickiup/catlinite.html [R=301,L]
-RewriteRule coyote/index.html$ /apache/wickiup/coydog.html [R=301,L]
-RewriteRule coyote/$ /apache/wickiup/coydog.html [R=301,L]
+RewriteRule ^catlinite/index.html /apache/wickiup/catlinite.html [R=301,L]
+RewriteRule ^catlinite/ /apache/wickiup/catlinite.html [R=301,L]
+RewriteRule ^coyote/index.html /apache/wickiup/coydog.html [R=301,L]
+RewriteRule ^coyote/ /apache/wickiup/coydog.html [R=301,L]
